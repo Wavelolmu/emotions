@@ -1,0 +1,124 @@
+@import "reset.css";
+
+@font-face {
+  font-family: 'Keleti';
+  src: url('keleti.ttf') format(truetype);
+}
+
+body {
+  font-family: 'Keleti';
+  overflow: hidden;
+}
+
+#doodle1 {
+  height: 845px;
+  position: absolute;
+  left: 28px;
+  bottom: -242px;
+}
+
+#doodle2 {
+  height: 557px;
+  position: absolute;
+  left: 505px;
+  top: -211px;
+}
+
+#doodle3 {
+  height: 500px;
+  position: absolute;
+  left: 705px;
+  top: 96px;
+}
+
+#circle1 {
+  height: 250px;
+  position: absolute;
+  left: 260px;
+  top: 190px;
+}
+
+#circle2 {
+  height: 100px;
+  position: absolute;
+  left: 151px;
+  bottom: 304px;
+}
+
+#circle3 {
+  height: 140px;
+  position: absolute;
+  left: 125px;
+  bottom: 348px;
+}
+
+#circle4 {
+  height: 57px;
+  position: absolute;
+  left: 114px;
+  bottom: 483px;
+}
+
+#wave {
+  height: 510px;
+  position: absolute;
+  left: 192px;
+  bottom: 30px;
+}
+
+#redStar {
+  height: 490px;
+  position: absolute;
+  left: -30px;
+  top: -10px;
+}
+
+#purpleEllipse {
+  height: 620px;
+  position: absolute;
+  left: 280px;
+  top: -80px;
+}
+
+#yellowTriangle {
+  height: 580px;
+  position: absolute;
+  left: 692px;
+  bottom: 30px;
+}
+
+#blueCircle {
+  height: 230px;
+  position: absolute;
+  right: 51px;
+  top: 28px;
+}
+
+#redCircle1 {
+  height: 450px;
+  position: absolute;
+  right: 132px;
+  bottom: -158px;
+  transform: rotate(-28deg);
+}
+
+#redCircle2 {
+  height: 430px;
+  position: absolute;
+  right: 72px;
+  bottom: -158px;
+}
+
+#redCircle3 {
+  height: 450px;
+  position: absolute;
+  right: -29px;
+  top: 251px;
+}
+
+#blueEllipse {
+  height: 250px;
+  position: absolute;
+  left: 456px;
+  bottom: 0px;
+}

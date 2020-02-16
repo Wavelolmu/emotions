@@ -1,0 +1,74 @@
+@import "reset.css";
+
+@font-face {
+  font-family: 'Keleti';
+  src: url('keleti.ttf') format(truetype);
+}
+
+body {
+  font-family: 'Keleti';
+}
+
+#starterScreen {
+  transition: opacity 0.3s ease-out;
+}
+
+.central_window {
+  width: 800px;
+  height: 450px;
+  border: 1px solid #FF70A9;
+  border-radius: 40px;
+  position: fixed;
+  top: 13vh;
+  left: 18.6%;
+  z-index: 1;
+}
+
+.intro {
+  width: 670px;
+  font-size: 48px;
+  line-height: 68px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FF70A9;
+}
+
+.intro:first-of-type {
+  margin-top: 180px;
+}
+
+.intro:last-of-type {
+  margin-bottom: 270px;
+}
+
+.transitionBtn {
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  z-index: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+#transitionBtn1 {
+  width: 190px;
+  height: 150px;
+  top: 2100px;
+  left: 70px;
+}
+
+#transitionBtn2 {
+  width: 270px;
+  height: 140px;
+  top: 2470px;
+  right: 70px;
+}
+
+#emotion1 {
+  opacity: 0;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+}
